@@ -1,23 +1,27 @@
 const OptionalSettings = {
-  ga_id_trait: {
+  gaidTrait: {
     description: 'The trait containing GA client id (defaults to gaid). Can be found by: ga(function(tracker) {var clientId = tracker.get("clientId");});',
+    type: string
+  },
+  gclidTrait: {
+    description: 'The trait containing GCLID (defaults to gclid).',
     type: string
   }
 }
 const RequiredSettings = {
-  event_category: {
+  eventCategory: {
     description: 'The GA event category',
     type: string
   },
-  event_action: {
+  eventAction: {
     description: 'The GA event action',
     type: string
   },
-  event_label: {
+  eventLabel: {
     description: 'The GA event label',
     type: string
   },
-  tracking_id: {
+  trackingId: {
     description: 'The ID that distinguishes to which Google Analytics property to send data.',
     type: string
   }
