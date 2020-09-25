@@ -11,6 +11,7 @@
     "node-fetch": "^2.6.0",
     "oauth": "^0.9.15",
     "segment-sloth": "^1.1.0",
+    "segment-typescript-api": "^0.6.10",
     "xml": "^1.0.1"
   },
   "devDependencies": {

@@ -24,6 +24,14 @@ const RequiredSettings = {
   trackingId: {
     description: 'The ID that distinguishes to which Google Analytics property to send data.',
     type: string
+  },
+  profileAccessToken: {
+    description: 'The profile API access token',
+    type: string
+  },
+  namespaceId: {
+    description: 'The namespace ID of the space to read traits from',
+    type: string
   }
 }
 
